@@ -13,6 +13,14 @@ module Cropper.Types exposing
     , decodeImage
     )
 
+{-| Types
+
+# Types
+
+@docs CropData, Drag, Image, ImageData, Model, Msg(..), Point, Position, Rect, Rectangle, Vector, decodeImage
+
+-}
+
 import Browser.Dom
 import Browser.Events exposing (..)
 import DOM

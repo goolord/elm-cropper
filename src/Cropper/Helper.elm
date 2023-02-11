@@ -2,7 +2,6 @@ module Cropper.Helper exposing (..)
 
 import Cropper.Types as Types exposing (..)
 
-
 zoomImage : Model -> Float -> Model
 zoomImage model zoom =
     { model | zoom = Basics.clamp 0.0 1.0 zoom }
